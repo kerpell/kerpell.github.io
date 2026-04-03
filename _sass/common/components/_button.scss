@@ -117,10 +117,18 @@
   @extend .button--md;
 }
 
+.button--squircle {
+  @include inline-flex();
+  @include justify-content(center);
+  @include align-items(center);
+  border-radius: 15%;
+  @extend .button--md;
+}
+
 .button--md {
   padding: map-get($button, padding-y) map-get($button, padding-x);
   font-size: map-get($base, font-size);
-  &.button--circle {
+  &.button--circle, &.button--squircle {
     width: map-get($button, circle-diameter);
     height: map-get($button, circle-diameter);
   }
@@ -129,7 +137,7 @@
 .button--xs {
   padding: map-get($button, padding-y-xs) map-get($button, padding-x-xs);
   font-size: map-get($base, font-size-xs);
-  &.button--circle {
+  &.button--circle, &.button--squircle {
     width: map-get($button, circle-diameter-xs);
     height: map-get($button, circle-diameter-xs);
   }
@@ -138,7 +146,7 @@
 .button--sm {
   padding: map-get($button, padding-y-sm) map-get($button, padding-x-sm);
   font-size: map-get($base, font-size-sm);
-  &.button--circle {
+  &.button--circle, &.button--squircle {
     width: map-get($button, circle-diameter-sm);
     height: map-get($button, circle-diameter-sm);
   }
@@ -147,7 +155,7 @@
 .button--lg {
   padding: map-get($button, padding-y-lg) map-get($button, padding-x-lg);
   font-size: map-get($base, font-size-lg);
-  &.button--circle {
+  &.button--circle, &.button--squircle {
     width: map-get($button, circle-diameter-lg);
     height: map-get($button, circle-diameter-lg);
   }
@@ -156,7 +164,7 @@
 .button--xl {
   padding: map-get($button, padding-y-xl) map-get($button, padding-x-xl);
   font-size: map-get($base, font-size-xl);
-  &.button--circle {
+  &.button--circle, &.button--squircle {
     width: map-get($button, circle-diameter-xl);
     height: map-get($button, circle-diameter-xl);
   }

@@ -1,17 +1,17 @@
 .article__content {
-  img.shadow, .shadow > img {
+  img.shadow, .shadow > img, video.shadow, .shadow > video, picture.shadow, .shadow > picture {
     @include box-shadow();
   }
 
-  img.border, .border > img {
+  img.border, .border > img, video.border, .border > video, picture.border, .border > picture {
     border: 1px solid $border-color-l;
   }
 
-  img.rounded, .rounded > img {
+  img.rounded, .rounded > img, video.rounded, .rounded > video, picture.rounded, .rounded > picture {
     border-radius: map-get($base, border-radius);
   }
 
-  img.circle, .circle > img {
+  img.circle, .circle > img, video.circle, .circle > video, picture.circle, .circle > picture {
     border-radius: 50%;
   }
 }

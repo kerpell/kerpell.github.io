@@ -114,10 +114,18 @@
   }
 }
 .navigation__item--active {
+    // EXPERIMENTAL
+    //background: linear-gradient(90deg, #442800, transparent 25%), #ff9500;
+    //background-clip: text;
+    //color: transparent;
+    //text-shadow: none;
   a {
     @include link-colors($main-color-1, $main-color-1);
+    //color: transparent !important;
   }
   &::after {
-    @include split-line(bottom, 4px, $main-color-1);
+    //@include split-line(bottom, 4px, $main-color-1);
+    border-bottom-width: 3px;
+    border-image: linear-gradient(45deg, #ffa824, #442800) 1;
   }
 }

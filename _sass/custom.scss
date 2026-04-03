@@ -1,3 +1,21 @@
 /* start custom scss snippet */
+.author-links li {
+	margin-inline-end: .75rem;
+}
+
+picture.border, img.border {
+	border-color: #545454 !important;
+}
+/*
+h6 { font-size: 1.125rem; }
+h5 { font-size: 1.266rem; }
+h4 { font-size: 1.424rem; }
+h3 { font-size: 1.602rem; }
+h2 { font-size: 1.802rem; }
+h1 { font-size: 2.027rem; }
+*/
+.article__content h4 {
+	margin-bottom: 0;
+}
 
 /* end custom scss snippet */

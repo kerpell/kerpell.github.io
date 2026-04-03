@@ -82,7 +82,7 @@ aside:
 
   @media (max-width: 576px) {
     .crm-grid > * {
-      grid-column: span 6;
+      grid-column: span 6 !important;
     }
 
     .lib-grid > * {

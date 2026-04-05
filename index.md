@@ -251,6 +251,10 @@ aside:
      font-weight: 300;
      margin-top: -3px;
   }
+
+  .reference p {
+    font-style: italic;
+  }
 </style>
 
 ## About me

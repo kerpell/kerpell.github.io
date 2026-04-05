@@ -231,6 +231,26 @@ aside:
   .quote span::before {
     content: '— ';
   }
+
+  .reference {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .reference-body {
+     display: flex;
+     flex-direction: column;
+  }
+
+  .reference-name {
+     font-weight: bold;
+     font-size: 1.5rem;
+  }
+
+  .reference-title {
+     font-weight: 300;
+     margin-top: -3px;
+  }
 </style>
 
 ## About me
@@ -612,33 +632,23 @@ Non-exhaustive list of features:
 
 ## References
 
-These great professionals can attest to my work and character.
-
-<div style="display: flex; gap: 1rem;">
+<div class="reference">
   <div class="tech-array">
     <div class="tech-square">
-      <div class="tech-icon">
-        <img src="assets/images/gimp_ref.png" alt="GIMP" />
+      <div class="tech-icon" style="padding: 1.5rem;">
+        <img src="assets/images/anass.png" class="rounded" alt="Headshot of Mr. Anass Karabila" />
       </div>
     </div>
   </div>
-  <div class="quote">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-    <span>John Doe, CEO of programming</span>
-  </div>
-</div>
-
-<div style="display: flex; gap: 1rem; margin-top: 2rem;">
-  <div class="tech-array">
-    <div class="tech-square">
-      <div class="tech-icon">
-        <img src="assets/images/gimp_ref.png" alt="GIMP" />
-      </div>
+  <div class="reference-body">
+    <div class="reference-name">Anass Karabila</div>
+    <small class="reference-title">Information system architect at Sofrecom, subsidiary of Orange Group.</small >
+    <div>
+      <p>"I had the pleasure of working with Amine on the development of a Symfony/PHP CRM, and I can attest to his reliability, professionalism, and technical skills as a full-stack developer.</p>
+      <p>Beyond his complete mastery of PHP, he is a dedicated, reliable, and solution-oriented individual. He quickly grasps requirements, proposes relevant solutions, and works effectively as part of a team.</p>
+      <p>I highly recommend him for any project requiring a skilled and committed full-stack developer."</p>
     </div>
-  </div>
-  <div class="quote">
-    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum .</p>
-    <span>Jane Foo, President of FooBar</span>
+    <a class="external-link" href="https://www.linkedin.com/in/anasskarabila/" target="_blank">LinkedIn</a>
   </div>
 </div>
 

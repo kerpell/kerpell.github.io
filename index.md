@@ -117,7 +117,6 @@ aside:
     align-items: center;
     row-gap: .75rem;
     width: 150px;
-    height: 175px;
     flex-shrink: 0;
   }
 

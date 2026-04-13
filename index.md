@@ -584,6 +584,10 @@ Non-exhaustive list of features:
 
 <div class="project-header">
   <h4 id="archery-game">Archery game</h4>
+  <a class="view-code-button" href="https://github.com/kerpell/archery-game" target="_blank">
+    <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
+    View code
+  </a>
 </div>
 
 <div class="tech-stack">

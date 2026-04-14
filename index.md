@@ -644,7 +644,7 @@ Non-exhaustive list of features:
   <div class="tech-array">
     <div class="tech-square">
       <div class="tech-icon" style="padding: 1.5rem;">
-        <img src="assets/images/anass.png" class="rounded" alt="Headshot of Mr. Anass KARABILA" />
+        <img src="assets/images/anass.jpg" class="rounded" alt="Headshot of Mr. Anass KARABILA" />
       </div>
     </div>
   </div>

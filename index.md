@@ -660,5 +660,23 @@ Non-exhaustive list of features:
   </div>
 </div>
 
+<div class="reference" style="margin-top: 2rem;">
+  <div class="tech-array">
+    <div class="tech-square">
+      <div class="tech-icon" style="padding: 1.5rem;">
+        <img src="assets/images/rafik.jpg" class="rounded" alt="Headshot of Mr. Abdellatif RAFIK" />
+      </div>
+    </div>
+  </div>
+  <div class="reference-body">
+    <div class="reference-name">Abdellatif RAFIK</div>
+    <small class="reference-title">IT Software engineer & experienced back-end lead developer and architect.</small >
+    <div>
+      <p>"I highly recommend Ahmed Amine for a full stack engineer role, He consistently demonstrate strong technical skills across both front-end and back-end technologies, quickly adapt to new frameworks, and deliver robust, scalable solutions. He is a proactive problem-solver, an effective communicator, and a reliable team player who contributes positively to any project. I am confident he will be a valuable asset to any engineering team."</p>
+    </div>
+    <a class="external-link" href="https://www.linkedin.com/in/rafikabdellatif/" target="_blank">LinkedIn</a>
+  </div>
+</div>
+
 ## Contact
 For all inquiries, you can contact me at this e-mail address: <amine.devl@proton.me>

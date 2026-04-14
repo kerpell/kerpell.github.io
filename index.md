@@ -644,12 +644,12 @@ Non-exhaustive list of features:
   <div class="tech-array">
     <div class="tech-square">
       <div class="tech-icon" style="padding: 1.5rem;">
-        <img src="assets/images/anass.png" class="rounded" alt="Headshot of Mr. Anass Karabila" />
+        <img src="assets/images/anass.png" class="rounded" alt="Headshot of Mr. Anass KARABILA" />
       </div>
     </div>
   </div>
   <div class="reference-body">
-    <div class="reference-name">Anass Karabila</div>
+    <div class="reference-name">Anass KARABILA</div>
     <small class="reference-title">Information system architect at Sofrecom, subsidiary of Orange Group.</small >
     <div>
       <p>"I had the pleasure of working with Amine on the development of a Symfony/PHP CRM, and I can attest to his reliability, professionalism, and technical skills as a full-stack developer.</p>

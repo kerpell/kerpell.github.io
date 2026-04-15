@@ -201,6 +201,10 @@ aside:
     fill: #ff9500;
   }
 
+  .view-code-button span {
+    text-wrap: nowrap;
+  }
+
   .quote {
     position: relative;
     flex-grow: 1;
@@ -554,7 +558,7 @@ Non-exhaustive list of features:
   <h4 id="3d-cube">3D cube</h4>
   <a class="view-code-button" href="https://github.com/kerpell/3d-cube" target="_blank">
     <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
-    View code
+    <span>View code</span>
   </a>
 </div>
 
@@ -586,7 +590,7 @@ Non-exhaustive list of features:
   <h4 id="archery-game">Archery game</h4>
   <a class="view-code-button" href="https://github.com/kerpell/archery-game" target="_blank">
     <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
-    View code
+    <span>View code</span>
   </a>
 </div>
 
@@ -605,7 +609,7 @@ Non-exhaustive list of features:
   <h4 id="sort-algorithms-visualization">Sort algorithms visualization</h4>
   <a class="view-code-button" href="https://github.com/kerpell/sort-visualization" target="_blank">
     <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
-    View code
+    <span>View code</span>
   </a>
 </div>
 
@@ -623,7 +627,7 @@ Non-exhaustive list of features:
   <h4 id="sierpiński-triangle">Sierpiński triangle</h4>
   <a class="view-code-button" href="https://github.com/kerpell/sierpinski-triangle" target="_blank">
     <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
-    View code
+    <span>View code</span>
   </a>
 </div>
 

@@ -587,11 +587,11 @@ Non-exhaustive list of features:
 </video>
 
 <div class="project-header">
-  <h4 id="archery-game">Archery game</h4>
-  <a class="view-code-button" href="https://github.com/kerpell/archery-game" target="_blank">
+  <h4 id="asteroids">Asteroids</h4>
+  <!-- <a class="view-code-button" href="https://github.com/kerpell/archery-game" target="_blank">
     <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
     <span>View code</span>
-  </a>
+  </a> -->
 </div>
 
 <div class="tech-stack">
@@ -600,8 +600,8 @@ Non-exhaustive list of features:
 </div>
 
 <video autoplay muted loop playsinline preload="metadata" class="rounded border" style="display: block; max-width: 100%;">
-  <source src="assets/videos/archery.webm" type="video/webm" />
-  <source src="assets/videos/archery.mp4" type="video/mp4" />
+  <source src="assets/videos/asteroids.webm" type="video/webm" />
+  <source src="assets/videos/asteroids.mp4" type="video/mp4" />
 </video>
 
 

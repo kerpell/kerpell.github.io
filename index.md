@@ -588,10 +588,10 @@ Non-exhaustive list of features:
 
 <div class="project-header">
   <h4 id="asteroids">Asteroids</h4>
-  <!-- <a class="view-code-button" href="https://github.com/kerpell/archery-game" target="_blank">
+  <a class="view-code-button" href="https://github.com/kerpell/asteroids" target="_blank">
     <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
     <span>View code</span>
-  </a> -->
+  </a>
 </div>
 
 <div class="tech-stack">
